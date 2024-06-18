@@ -1,7 +1,7 @@
 schema
   @upstream(baseURL: "http://jsonplaceholder.typicode.com")
-  @link(type: Config, src: "./user/user.graphql")
-  @link(type: Config, src: "./post.graphql")
+  @link(type: Config, src: "../user/user.graphql")
+  @link(type: Config, src: "../post.graphql")
 {
   query: Query
 }
